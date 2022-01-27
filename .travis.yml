@@ -4,6 +4,9 @@ branches:
 
 os:
   - windows
+  - linux
+
+dist: bionic
 
 language: shell
 
@@ -17,7 +20,6 @@ before_install:
     
     fi;
 
-
 script:
   - export JAVA_HOME="${JAVA_HOME:-/c/jdk}"
   - |
@@ -26,5 +28,3 @@ script:
     else
         maven="mvn";
     fi;
-  
-

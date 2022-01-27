@@ -19,7 +19,6 @@ before_install:
       choco install maven;
     
     fi;
-
 script:
   - export JAVA_HOME="${JAVA_HOME:-/c/jdk}"
   - |

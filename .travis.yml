@@ -28,3 +28,5 @@ script:
     else
         maven="mvn";
     fi;
+   - mvn verify
+install: false

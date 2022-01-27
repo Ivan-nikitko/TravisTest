@@ -26,5 +26,5 @@ script:
     else
         maven="mvn";
     fi;
-  - $maven verify
+  
 

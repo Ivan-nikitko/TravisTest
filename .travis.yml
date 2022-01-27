@@ -14,7 +14,7 @@ before_install:
   - |
     if [ "$TRAVIS_OS_NAME" = "windows" ]; then 
       choco install maven;
-      refreshenv;
+    
     fi;
 
 install:
